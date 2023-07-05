@@ -50,14 +50,48 @@ svg {
       transition: all .3s;
       z-index: 11;
   }
-
+  .btn1 {
+    position: fixed;
+    top: 5%;
+    right: 0px;
+    transform: translateX(-50%);
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.7em;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    transition: all .3s;
+    z-index: 11;
+}
   .btn_works {
       left: 100px;
       right: unset;
       text-decoration: none;
   }
-
+  .btn1_works {
+    left: 80px;
+    right: unset;
+    text-decoration: none;
+}
+.btn1_works1 {
+  right: 80px;
+  left: unset;
+  text-decoration: none;
+}
+.btn1_works2 {
+  right: 100px;
+  left: unset;
+  text-decoration: none;
+}
   .btn:hover {
       background: #ffffff;
       color: #1B1734;
   }
+  .btn1:hover {
+    background: #ffffff6d;
+    color: #1b1734;
+}
