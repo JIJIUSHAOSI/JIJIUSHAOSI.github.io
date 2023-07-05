@@ -52,7 +52,7 @@ svg {
   }
   .btn1 {
     position: fixed;
-    top: 5%;
+    top: 4%;
     right: 0px;
     transform: translateX(-50%);
     /* border: 1px solid #fff; */
@@ -83,7 +83,7 @@ svg {
   text-decoration: none;
 }
 .btn1_works2 {
-  right: 40px;
+  right: 60px;
   left: unset;
   text-decoration: none;
 }
